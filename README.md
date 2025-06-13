@@ -34,3 +34,5 @@ will just simply return the blank error grid as shown below.
 Input data needs to be in the form of a pandas dataframe with 'REFERENCE' and 'MONITOR' as the column headers, where 'REFERENCE' is data collected via a YSI glucose analyser or equivalent and 'MONITOR' is the data collected from your glucose measurement device.
 All input data needs to be in mg/dl.
 
+## Saved plots
+Plots are automatically saved as a PDF in your downloads folder. They contain 2 pages, the first being the graph and the second with the MARD, risk zone analysis and the relative error information.
