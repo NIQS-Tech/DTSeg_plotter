@@ -27,7 +27,7 @@ Calling the function without any data or other parameters
 ```
 plot_DTSEG()
 ```
-will just simply return the blank error grid.
+will just simply return the blank error grid as shown below.
 ![Blank error grid as prouced by a blank function call](output.png "Blank DTS eg")
 
 
