@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dtseg"
-version = "0.1.0"
+version = "0.1.1"
 description = "A quick method to plot the DTS EG and acquire relevant statistics in python"
 authors = [{name = "Benjamin Dawson", email = "ben.dawson@niqstech.com"}]
 readme = "README.md"
