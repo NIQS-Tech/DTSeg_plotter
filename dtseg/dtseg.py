@@ -9,6 +9,18 @@ from matplotlib.backends.backend_pdf import PdfPages
 import os
 
 def plot_DTSEG(input_data: pd.DataFrame = None, plot_size: int=600, point_size: int = 20, Show_zone_labels: bool = True, save_graph: bool= True, graph_title: str = None, highlight_zone: str = None):
+    """
+    Plots the Diabetes Technology Society error grid
+
+    Parameters:
+    input_data: pd.DataFrame (Default = None). Default is None causing an empty graph to plot.
+    plot_size: Integer up to 600 (mg/dl) (Default = 600). This determines to what maximum glucose value the graph displays. Dont exceed 600.
+    point_size: Integer (Default = 20) that determines the size of the data points on the plot.
+    Show_zone_labels: Bool (Default = True) toggles the zone labels "A", "B", "C", "D", "E" in the various zones on the graph. They automatically disappear when plotting graphs of size less than 300.
+    save_graph: Bool (Default = True). Toggles whether to save a pdf of the graph in downloads or not
+    graph_title: str (Default = None). This is the title that is displayed above the plotted graph
+    highlight_zone: str (Default - None). Type in the zone label you wish to highlight ("A", "B", "C", "D" or "E"). Has no real use but its fun if you want to present the graph and show the zone boundaries.
+    """
 
 
     fig, ax = plt.subplots(figsize=(9.5, 8))
