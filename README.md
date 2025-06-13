@@ -11,22 +11,22 @@ There is a slight discrepancy between the official DTS plotter results and this 
 ## Instalation instructions 
 
 To install this code simply type:
-'''
+```
 pip install git+https://github.com/NIQS-Tech/DTSeg_plotter.git
-'''
+```
 
 into your terminal in your chosen python environment.
 
 ## Usage instructions 
 
 To use the DTS eg plotter you need to do type:
-'''
+```
 from dtseg.dtseg import plot_DTSEG
-'''
+```
 Calling the function without any data or other parameters 
-'''
+```
 plot_DTSEG()
-'''
+```
 will just simply return the blank error grid.
 
 
