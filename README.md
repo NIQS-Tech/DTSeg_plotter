@@ -28,6 +28,6 @@ Calling the function without any data or other parameters
 plot_DTSEG()
 ```
 will just simply return the blank error grid.
-![Blank error grid as prouced by a blank function call](DTSeg_plotter/output.png "Blank DTS eg")
+![Blank error grid as prouced by a blank function call](output.png "Blank DTS eg")
 
 
